@@ -36,3 +36,20 @@ For each screen record status, purpose, layout, navigation, actions, data source
 | All Members | Complete list reported incomplete; fix without removing features |
 
 A screen is not approved merely because it compiles or renders. Compare it with the user's approved design and record explicit acceptance.
+
+
+## UI reference file inventory — 2026-11-06
+**Directory listing verified from GitHub:** `UI/` contains 7 JPEG screenshots and one placeholder file.
+
+| File | Size | Visual contents |
+|---|---:|---|
+| `Screenshot_20261106_071858_501MTB.jpg` | 611,100 bytes | Not yet visually inspected |
+| `Screenshot_20261106_071907_501MTB.jpg` | 600,703 bytes | Not yet visually inspected |
+| `Screenshot_20261106_071913_501MTB.jpg` | 391,039 bytes | Not yet visually inspected |
+| `Screenshot_20261106_071920_501MTB.jpg` | 506,454 bytes | Not yet visually inspected |
+| `Screenshot_20261106_071935_501MTB.jpg` | 287,161 bytes | Not yet visually inspected |
+| `Screenshot_20261106_071941_501MTB.jpg` | 221,011 bytes | Not yet visually inspected |
+| `Screenshot_20261106_071948_501MTB.jpg` | 500,596 bytes | Not yet visually inspected |
+| `read.me` | 1 byte | Placeholder; no useful inventory notes |
+
+The directory listing and filenames are verified, but the GitHub file-fetch interface available in this session returned metadata only for binary JPEGs; the image pixels could not be opened here. Therefore no screen names, UI layouts, or approval statuses have been inferred. Next step: obtain viewable copies of these seven screenshots in the chat (or another image-capable route), then map each image to its screen. Do not modify or replace the originals.
