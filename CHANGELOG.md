@@ -38,3 +38,12 @@ Add newest entries at the top.
 - Binary image contents could not be visually inspected through the available GitHub fetch response, so screen identities and design details remain unclassified.
 - No screenshot was changed, renamed, deleted, or replaced. No application source was modified.
 - Next: inspect viewable copies of the seven screenshots and map each to its screen before any UI implementation.
+
+
+## 2026-11-06 — Retrieved and visually inspected APK v0.1.56 UI references
+- Retrieved all seven JPEG screenshots directly from `501mtb/Projet-memory/UI/` using GitHub file content in base64; no re-upload from the user was needed.
+- Visually identified: Home regular view, Home Admin Demo view, Past Event detail modal, 501 Profile, Record Ride, Chat, and Rider Profile.
+- Recorded visible screen details and navigation order in `UI_DESIGN.md`.
+- Confirmed the references show bottom navigation: Home / 501 Profile / Record Ride / Chat / Rider. The 501 Profile is the organization profile; Rider is the individual profile.
+- Noted that Settings is absent from the supplied references and must not be designed by assumption.
+- No original screenshot or application source file was modified.
