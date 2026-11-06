@@ -1,13 +1,12 @@
 # UI Design Decisions
 
 ## UI reference assets — APK v0.1.56
-**USER-REPORTED / SOURCE TO INSPECT**
-- The user has already placed the UI reference materials from APK version **0.1.56** in the `UI` folder of this memory repository.
-- Treat these assets as the visual reference set for documenting and comparing the app interfaces.
-- Before changing any UI, inspect the contents of `UI/` and identify each screen/image and its filename. Do not replace, rename, delete, or regenerate these references.
+**VISUALLY INSPECTED AND TRANSCRIBED**
+- The seven original JPEG references in `UI/` were retrieved directly from GitHub and visually inspected.
+- A detailed plain-text transcription is stored in [UI_REFERENCE_v0.1.56.txt](UI_REFERENCE_v0.1.56.txt). Read that text file as the quick-access description of the screenshots; consult the original JPGs when visual precision matters.
+- Do not replace, rename, delete, or regenerate the original reference images.
 - Compare the current app screens against these references before implementing UI changes.
-- If a reference image is ambiguous or a screen is missing, ask the user rather than inventing its design.
-- The assets are reference material; they do not automatically prove that every screen is final/approved. Record approval screen by screen.
+- The images are visual references; they do not automatically prove that every screen is final/approved. Record approval screen by screen.
 
 ## Global navigation
 **APPROVED**
@@ -43,7 +42,7 @@ A screen is not approved merely because it compiles or renders. Compare it with 
 
 | File | Size | Visual contents |
 |---|---:|---|
-| `Screenshot_20261106_071858_501MTB.jpg` | 611,100 bytes | Not yet visually inspected |
+| `Screenshot_20261106_071858_501MTB.jpg` | 611,100 bytes | Visually inspected; see UI_REFERENCE_v0.1.56.txt |
 | `Screenshot_20261106_071907_501MTB.jpg` | 600,703 bytes | Not yet visually inspected |
 | `Screenshot_20261106_071913_501MTB.jpg` | 391,039 bytes | Not yet visually inspected |
 | `Screenshot_20261106_071920_501MTB.jpg` | 506,454 bytes | Not yet visually inspected |
