@@ -43,12 +43,12 @@ A screen is not approved merely because it compiles or renders. Compare it with 
 | File | Size | Visual contents |
 |---|---:|---|
 | `Screenshot_20261106_071858_501MTB.jpg` | 611,100 bytes | Visually inspected; see UI_REFERENCE_v0.1.56.txt |
-| `Screenshot_20261106_071907_501MTB.jpg` | 600,703 bytes | Not yet visually inspected |
-| `Screenshot_20261106_071913_501MTB.jpg` | 391,039 bytes | Not yet visually inspected |
-| `Screenshot_20261106_071920_501MTB.jpg` | 506,454 bytes | Not yet visually inspected |
-| `Screenshot_20261106_071935_501MTB.jpg` | 287,161 bytes | Not yet visually inspected |
-| `Screenshot_20261106_071941_501MTB.jpg` | 221,011 bytes | Not yet visually inspected |
-| `Screenshot_20261106_071948_501MTB.jpg` | 500,596 bytes | Not yet visually inspected |
+| `Screenshot_20261106_071907_501MTB.jpg` | 600,703 bytes | Visually inspected; see UI_REFERENCE_v0.1.56.txt |
+| `Screenshot_20261106_071913_501MTB.jpg` | 391,039 bytes | Visually inspected; see UI_REFERENCE_v0.1.56.txt |
+| `Screenshot_20261106_071920_501MTB.jpg` | 506,454 bytes | Visually inspected; see UI_REFERENCE_v0.1.56.txt |
+| `Screenshot_20261106_071935_501MTB.jpg` | 287,161 bytes | Visually inspected; see UI_REFERENCE_v0.1.56.txt |
+| `Screenshot_20261106_071941_501MTB.jpg` | 221,011 bytes | Visually inspected; see UI_REFERENCE_v0.1.56.txt |
+| `Screenshot_20261106_071948_501MTB.jpg` | 500,596 bytes | Visually inspected; see UI_REFERENCE_v0.1.56.txt |
 | `read.me` | 1 byte | Placeholder; no useful inventory notes |
 
 The directory listing and filenames are verified, but the GitHub file-fetch interface available in this session returned metadata only for binary JPEGs; the image pixels could not be opened here. Therefore no screen names, UI layouts, or approval statuses have been inferred. Next step: obtain viewable copies of these seven screenshots in the chat (or another image-capable route), then map each image to its screen. Do not modify or replace the originals.
