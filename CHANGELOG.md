@@ -2,6 +2,11 @@
 
 Add newest entries at the top.
 
+## 2026-11-06 — UI reference assets identified
+- User reports that the UI references from APK version **0.1.56** are already placed in the `UI/` folder of this memory repository.
+- Added this as the visual reference baseline in `UI_DESIGN.md`.
+- Next: inspect and inventory the actual contents of `UI/`; preserve all files and map each reference to its screen. No UI implementation change is authorized by this note alone.
+
 ## 2026-11-06 — Memory repository initialized
 - Confirmed repository: `501mtb/Projet-memory`, public, default branch `main`.
 - Expanded the existing README into the project memory index and mandatory workflow.
