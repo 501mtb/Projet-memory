@@ -47,3 +47,10 @@ Add newest entries at the top.
 - Confirmed the references show bottom navigation: Home / 501 Profile / Record Ride / Chat / Rider. The 501 Profile is the organization profile; Rider is the individual profile.
 - Noted that Settings is absent from the supplied references and must not be designed by assumption.
 - No original screenshot or application source file was modified.
+
+
+## 2026-11-06 — Plain-text UI reference transcription created
+- Created `UI_REFERENCE_v0.1.56.txt`, a detailed text transcription of all seven APK v0.1.56 screenshots.
+- Included visible section hierarchy, labels, card content, actions, navigation selection, empty/offline/pending states, and limits on what the screenshots do not show.
+- Updated `UI_DESIGN.md` to point to the transcription and corrected the provisional inventory that said the images had not yet been inspected.
+- Original JPEG reference files were left unchanged. No application source code was changed.
