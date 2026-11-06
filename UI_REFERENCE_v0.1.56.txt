@@ -1,0 +1,317 @@
+501MTB — UI REFERENCE TRANSCRIPTION
+APK VERSION: 0.1.56
+SOURCE: Original screenshots stored in repository folder UI/
+CREATED: 2026-11-06
+PURPOSE: Plain-text description of the visible UI so future implementation and review can read the reference without reopening the images.
+
+IMPORTANT READING RULES
+- This document describes only what is visibly present in the screenshots.
+- A screenshot is a visual reference, not automatic proof that every feature is implemented, functional, or finally approved.
+- Do not invent missing screens, hidden content, or behavior.
+- Preserve the original JPG files in UI/. This text file supplements them; it does not replace them.
+- Global visual language: predominantly black background, dark charcoal cards, vivid/neon green headings and accents, light gray/white text, rounded card corners, and purple-gray selected bottom-navigation backgrounds/icons.
+- Bottom navigation order shown in the references: Home, 501 Profile, Record Ride, Chat, Rider.
+
+============================================================
+IMAGE 1
+FILE: Screenshot_20261106_071858_501MTB.jpg
+SCREEN: HOME — regular/member view
+============================================================
+
+VISIBLE TOP AREA
+- Black background.
+- At the upper right: green text “ADMIN DEMO”.
+- No conventional top app-bar title is visible in this crop.
+- The phone status bar is visible at the very top.
+
+SECTION: NEXT RIDE
+- Section heading: “NEXT RIDE” in vivid green.
+- Separator dot, then subtitle “UPCOMING MTB RIDES” in light gray.
+- Horizontal carousel of wide rounded ride cards.
+- First visible card:
+  - Large landscape image/cover area at top (image appears as a green gradient placeholder in this screenshot).
+  - Vertical action rail at the right edge of the card: heart, comment, share, arrow/open.
+  - Date and level: “15 NOV 2026 • ALL LEVELS”.
+  - Ride title: “IVOLOINA TRAIL RIDE”.
+  - Details: “07:30 • MEET: Loca Velo Tanamakoa • 32 km”.
+- A second card is partially visible to the right:
+  - Date begins “29 NOV 202...”.
+  - Title begins “MAKUA F...”.
+  - Time begins “12:30 ...”.
+- Horizontal clipping indicates more ride cards can be browsed sideways.
+
+SECTION: PAST EVENT
+- Heading “PAST EVENT” in vivid green.
+- Separator dot, subtitle “MTB EVENT”.
+- Horizontal carousel of wide rounded event cards.
+- First visible card:
+  - Large landscape cover image area.
+  - Date: “15 OCT 2026”.
+  - Title: “IVOLOINA • BASSINDRANO”.
+  - Details: “34 km • INTERMEDIATE • Toamasina”.
+  - Bottom/right horizontal action rail: heart, comment, share, arrow/open.
+- Second card partially visible on right:
+  - Date begins “20 SEP 202...”.
+  - Title begins “TOAMASI...”.
+  - Distance begins “26 km ...”.
+
+SECTION: COMMUNITY
+- Heading “COMMUNITY” in vivid green.
+- Separator dot, subtitle “MEMBER RIDE STORIES”.
+- Horizontal row/carousel of tall portrait member cards.
+- Three visible member cards:
+  1. MIKA
+     - Badge: “SUPER” in a dark rounded badge at upper left.
+     - Central graphic: large “501”, then “MTB • MADAGASCAR”.
+     - Member name shown in central area and again as lower card title: “MIKA”.
+     - Ride story: “Sunday Ride • 31 km”.
+  2. JOEL
+     - Badge: “ROOKIE”.
+     - Central “501 / MTB • MADAGASCAR”.
+     - Name: “JOEL”.
+     - Ride story begins “Coastal Discovery • 22 ...”.
+  3. YAINA
+     - Badge: “ELITE”.
+     - Central “501 / MTB • MADAGASCAR”.
+     - Name: “YAINA”.
+     - Ride story: “XC Training • 42 km”.
+- Each member card has bottom actions/icons: heart, target/location-like icon, person/profile action labelled “PROFILE”.
+- Cards have rounded corners, dark-to-green gradient backgrounds and white text.
+
+BOTTOM NAVIGATION
+1. Home — selected; house icon inside a purple-gray rounded pill; label green.
+2. 501 Profile — group/people icon; label light gray.
+3. Record Ride — cyclist icon; label light gray.
+4. Chat — speech-bubble icon; label light gray.
+5. Rider — person icon; label light gray.
+
+============================================================
+IMAGE 2
+FILE: Screenshot_20261106_071907_501MTB.jpg
+SCREEN: HOME — ADMIN DEMO showcase state
+============================================================
+
+- Same Home structure and visible ride/member content as Image 1.
+- Upper right green action: “EXIT ADMIN DEMO”.
+- Pink notice near top: “SHOWCASE ADMIN MODE • actions are demonstrations only”.
+- “NEXT RIDE” section has green “+ ADD” action aligned at the right.
+- “PAST EVENT” section has green “+ ADD” action aligned at the right.
+- Ride cards show dark circular overflow/menu controls with vertical three-dot icon.
+- Member cards also show dark circular overflow/menu controls with vertical three-dot icon at upper right.
+- Existing card actions and bottom navigation remain visible.
+- The notice explicitly says actions are demonstration-only. Do not treat this screenshot as proof of real admin backend behavior.
+
+============================================================
+IMAGE 3
+FILE: Screenshot_20261106_071913_501MTB.jpg
+SCREEN: HOME — PAST EVENT DETAILS MODAL
+============================================================
+
+- A large centered dark charcoal/purple-gray rounded modal overlays the dimmed Home screen.
+- Modal title: “IVOLOINA • BASSINDRANO”.
+- Large landscape cover image below the title.
+- Event information:
+  - Date: “15 OCT 2026” in vivid green.
+  - Distance and level: “34 km • INTERMEDIATE”.
+  - Time: “TIME: 07:00”.
+  - Meeting point: “MEETING POINT: Toamasina”.
+- Thin horizontal divider.
+- Section title: “PHOTO GALLERY”.
+- Three square/portrait-ish thumbnail placeholders in one row.
+- Explanatory text: “501MTB reactions and comments are shown here in the finished app”.
+- Green text actions near lower modal area: “FIRE”, “COMMENTS”, “SHARE”.
+- Separate “CLOSE” action lower down.
+- The underlying Home sections and bottom navigation remain visible but darkened behind the modal.
+- This is a modal/state belonging to Home, not a separate bottom-navigation screen.
+
+============================================================
+IMAGE 4
+FILE: Screenshot_20261106_071920_501MTB.jpg
+SCREEN: 501 PROFILE — ORGANIZATION PROFILE
+============================================================
+
+- Black page background.
+- Large dark charcoal rounded rectangular hero/banner at top, containing centered white “501MTB”.
+- Under the banner: three circular graphic elements:
+  - Left small circle labelled “501”.
+  - Center larger circle overlapping the banner edge, with white mountain-bike/rider illustration.
+  - Right small circle labelled “501”.
+- Section heading: “À PROPOS” in vivid green.
+- Subheading: “USEFUL LINKS”.
+- Useful Links displayed as two-column rounded rectangular tiles:
+  - “501MTB” (blue/dark tile with link icon).
+  - “Team 501” (blue/dark tile with link icon).
+  - “034 93 715 00” (green/dark tile with link icon).
+  - “501 GitHub” (white tile with dark link icon/text).
+  - “toamasina501mtb@gmail.com” (white tile with dark link icon/text).
+  - “Call” (green/dark tile with link icon).
+- Subheading: “OUR VISION • MISSION • COMMUNITY”.
+- Three separate dark rounded cards:
+  1. “OUR VISION” in green:
+     “To become the leading reference for mountain biking in Madagascar.”
+  2. “OUR MISSION” in green:
+     “To develop and promote mountain biking by organizing events, supporting riders, and building a strong and united MTB community.”
+  3. “OUR COMMUNITY” in green:
+     “501MTB brings riders together through events, trail rides, race experiences and community support across Madagascar.”
+- Section “ESPACE TEAM” in green.
+  - Text: “Team information is temporarily unavailable.”
+- Section “ESPACE RIDE” in green.
+  - Text: “Select a photo to view ride details and its Facebook album.”
+  - Additional text: “Ride photos will appear when the V2 catalogue is available.”
+- Section “ESPACE DOCUMENT” in green.
+- Four visible dark rounded folder rows with green folder icons and small green external/open arrow:
+  - “Ride 2025”
+  - “Ride 2026”
+  - “Code of Conduct”
+  - “501 MTB Full Story”
+- Pink/red warning near bottom:
+  “Some V2 content could not be refreshed. Check your connection.”
+- Bottom navigation order is unchanged; 501 Profile is selected (people icon on purple-gray rounded pill, label green).
+
+============================================================
+IMAGE 5
+FILE: Screenshot_20261106_071935_501MTB.jpg
+SCREEN: RECORD RIDE
+============================================================
+
+- Black page background.
+- Large green title: “RECORD RIDE”.
+- Subtitle: “Track your ride. Keep your performance.”
+- Content arranged as stacked dark charcoal rounded panels.
+
+PANEL: RECORDING MODE
+- Heading “RECORDING MODE” in green.
+- Two large side-by-side selectable cards:
+  1. “Group Event”
+     - Group/people icon.
+     - Supporting text: “Ride with 501MTB”.
+     - Green border and green-tinted dark background; appears selected in screenshot.
+  2. “Individual”
+     - Person icon.
+     - Supporting text: “Personal training”.
+     - Gray border and black background.
+
+PANEL: GPS STATUS
+- Heading “GPS STATUS” in green.
+- Yellow target/GPS icon and status “Not connected” at upper right.
+- Large dark green map placeholder.
+- Centered green route/path icon.
+- Text: “LIVE ROUTE MAP”.
+- Supporting text: “Your GPS track will appear here”.
+- Bluetooth icon and note at bottom:
+  “GPS and sensor connection status will be shown here.”
+
+PANEL: LIVE PERFORMANCE
+- Heading “LIVE PERFORMANCE” in green.
+- Two-column metric layout:
+  - DISTANCE: “0.00 km”
+  - DURATION: “00:00:00”
+  - AVG. SPEED: “-- km/h”
+  - ELEVATION: “-- m”
+
+PRIMARY ACTION / STATUS
+- Wide pill-shaped dark green button/status at bottom:
+  “GPS RECORDING — SETUP PENDING”.
+- It appears muted/disabled or pending in this screenshot; no active recording is shown.
+
+BOTTOM NAVIGATION
+- Same five destinations.
+- Record Ride (third position) selected with purple-gray rounded background and green label.
+
+============================================================
+IMAGE 6
+FILE: Screenshot_20261106_071941_501MTB.jpg
+SCREEN: CHAT — 501MTB GENERAL
+============================================================
+
+- Black page background.
+- Header at top:
+  - Green notification bell icon with a small pink notification dot.
+  - Title: “501MTB General”.
+  - Subtitle: “Community group chat”.
+  - Sliders/settings-like icon at upper right.
+- Large dark charcoal rounded group card:
+  - Green group icon inside a dark green circular background.
+  - Title: “501MTB Community”.
+  - Subtitle: “General discussion • Rides • Events”.
+- Empty chat area:
+  - Large centered green group icon inside dark green circle.
+  - Welcome heading: “Welcome to 501MTB General”.
+  - Intro: “One place for the whole team to talk, share ride plans, photos and community news.”
+  - Green status: “No messages yet”.
+- Bottom composer area on dark charcoal background:
+  - Large outlined rounded input with placeholder “Message the group...”.
+  - Send arrow icon at right.
+  - Status text:
+    “Messaging connection is being prepared. Sending is not active yet.”
+- Bottom navigation with Chat (fourth position) selected in purple-gray pill and green label.
+- Screenshot shows empty state and a not-yet-active messaging connection, not proof of live messaging.
+
+============================================================
+IMAGE 7
+FILE: Screenshot_20261106_071948_501MTB.jpg
+SCREEN: RIDER PROFILE — INDIVIDUAL RIDER
+============================================================
+
+- Black page background.
+- Header:
+  - Circular purple-gray back/exit icon at upper left.
+  - Title: “Rider Profile”.
+  - Subtitle: “Your personal MTB journey”.
+  - Green gear/settings icon at upper right.
+- Large rounded dark green banner:
+  - Green cyclist icon.
+  - Text: “501MTB • RIDER”.
+  - Tagline: “WHERE LEGENDS RISE”.
+- Centered identity area:
+  - Large purple-gray circular avatar with green initials “5R”.
+  - Name: “501MTB Rider”.
+  - Green status: “BADGE NOT ASSIGNED”.
+  - Gray ID line: “501MTB ID: Not assigned”.
+
+SECTION: STATISTICS GROUP
+- Green heading “STATISTICS GROUP”.
+- Dark rounded card titled “501MTB community overview” with green group icon.
+- Three group metrics, currently shown as dashes:
+  - Club rides
+  - Club distance
+  - Members
+- Explanatory note:
+  “Club-wide figures, not personal rider totals.”
+
+SECTION: STATISTICS INDIVIDUAL
+- Green heading “STATISTICS INDIVIDUAL”.
+- Dark rounded card titled “My riding performance” with green trophy icon.
+- Three individual metrics, currently shown as dashes:
+  - Rides
+  - Distance
+  - Elevation
+- Explanatory note:
+  “Your personal GPS and attendance statistics will appear here when recorded ride data is connected.”
+
+SECTION: ABOUT
+- Green heading “ABOUT”.
+- Dark rounded card titled “About this rider”.
+- Description:
+  “A member of the 501MTB mountain biking community in Madagascar.”
+- Sign-in note:
+  “Sign in to connect your rider account.”
+- Pink/red warning:
+  “Some profile information is unavailable while offline.”
+
+BOTTOM NAVIGATION
+- Same five destinations.
+- Rider (fifth position) selected with purple-gray pill and green label.
+
+============================================================
+NOT SHOWN IN THIS REFERENCE SET
+============================================================
+
+- Settings screen itself is not shown. Only a settings/gear icon is visible on Rider Profile, and a sliders icon appears in Chat.
+- All Members full list is not shown.
+- Pending member approvals are not shown.
+- Feed UI, if separate from the Home screen shown here, is not shown.
+- No detailed login, registration, admin approval, or member-management screen is shown.
+- Do not infer these layouts from the seven screenshots.
+
+END OF TRANSCRIPTION
