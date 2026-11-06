@@ -30,3 +30,11 @@ Add newest entries at the top.
 - Checks and results:
 - User acceptance:
 - Remaining work:
+
+
+## 2026-11-06 — UI folder inventory
+- Verified the `UI/` directory in `501mtb/Projet-memory` contains seven JPEG screenshot files and a 1-byte `read.me` placeholder.
+- Recorded exact filenames and byte sizes in `UI_DESIGN.md`.
+- Binary image contents could not be visually inspected through the available GitHub fetch response, so screen identities and design details remain unclassified.
+- No screenshot was changed, renamed, deleted, or replaced. No application source was modified.
+- Next: inspect viewable copies of the seven screenshots and map each to its screen before any UI implementation.
